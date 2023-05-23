@@ -1,0 +1,32 @@
+bagon% starknet new_account --account v0.11.0.2
+Account address: 0x07d47165df0f4c0c2c7ebaca19d6369560bde00f7001f595d8f19561b3b3db01
+Public key: 0x05b806f4a305632886683f04450d9684d817a070ab0d0a5c014cc21b0c0381c2
+Move the appropriate amount of funds to the account, and then deploy the account
+by invoking the 'starknet deploy_account' command.
+
+NOTE: This is a modified version of the OpenZeppelin account contract. The signature is computed
+differently.
+
+bagon% starknet deploy_account --account v0.11.0.2
+Sending the transaction with max_fee: 0.000014 ETH (13570072391460 WEI).
+Sent deploy account contract transaction.
+
+Contract address: 0x07d47165df0f4c0c2c7ebaca19d6369560bde00f7001f595d8f19561b3b3db01
+Transaction hash: 0x459173dfa9db7cac0aaf344595eb7008cb585887acc77bb4ef6c21cba0c53c9
+
+
+
+bagon% starknet declare --contract sierra/example.json --account v0.11.0.2
+Sending the transaction with max_fee: 0.000003 ETH (2549426690519 WEI).
+Declare transaction was sent.
+Contract class hash: 0x7a991523a0f6cf5428a5f79af2a09bf1eca99b9386874a1bc34c55760a064df
+Transaction hash: 0x2cc6a188a012ae6a3a2cfc79c1a82e25b2337d6ace8761c7d5a1d85842625c4
+bagon% cat sierra/example.json
+
+bagon% starknet deploy --class_hash 0x7a991523a0f6cf5428a5f79af2a09bf1eca99b9386874a1bc34c55760a064df --account v0.11.0.2
+Sending the transaction with max_fee: 0.000005 ETH (5361169659038 WEI).
+Invoke transaction for contract deployment was sent.
+Contract address: 0x02f4eb06b1ea87f7abb63139c4be7d83dc22d891ecd67f8c11310be0a99daa43
+Transaction hash: 0x16c6c80d39c6aaa75197468ab4ae6c2001fa2f3220d58e8a0a049782f0eeaa8
+
+increase_balance trans :0x318c3e6167d9a9485cc3a77d2626118d148d863d7c4e45b54396b80c50171e9
