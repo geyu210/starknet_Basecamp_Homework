@@ -1,0 +1,22 @@
+= Exercise 11
+
+== Composability
+
+        // CAREFUL THERE IS A TRAP FOR PEOPLE WHO WON'T READ THE CODE
+        // This exercise looks like the previous one, but actually the view secret_value returns a different value than secret_value
+        // Sending the wrong execution result will remove some of your points, then validate the exercise. You won't be able to get those points back later on!
+
+
+
+step:
+fn secret_value() -> u128 {
+return secret_value_internal();
+}
+return is the fake number, which will sub you point 2 ,if you don't know the rule.
+the real number is the facknumber - 42069
+
+so:
+1.chaim(facknumber - 42069,666)
+
+done!
+

@@ -1,0 +1,27 @@
+= Exercise 13
+
+== Event
+
+
+
+
+so:
+
+1. find set_random_values invoke transaction at https://testnet.starkscan.co/contract/0x067ed1d23c5cc3a34fb86edd4f8415250c79a374e87bcf2e6870321261ca9b0f#account-calls
+
+2. so the trans's hash is 0x0583456d2e59640e44a529a97c73bd23087c0d4b6de4c23eaf29984eabcd5695
+
+3. in https://testnet.starkscan.co/tx/0x0583456d2e59640e44a529a97c73bd23087c0d4b6de4c23eaf29984eabcd5695[transaction] which has a array in call
+set_random_values ( values )
+values is a array
+
+so
+let arr = values
+let sec_num = arr[user_slot]
+console.log(sec_num)
+
+4.chaim(sec_num)
+
+
+done!
+
