@@ -1,0 +1,21 @@
+= Exercise 10
+
+== Composability
+
+
+
+step:
+ex10a_address : 0x0763e89551900eba82d757a9f3862935cc7f7e47538f01ddba514f23d9a5f6e0
+get_ex10b_address() //get return 0x073d5ceb7e20bc50e555e326f60c25fe95bbb20f75892a3552eb77fcd14dae92
+
+ex10b_address : 0x073d5ceb7e20bc50e555e326f60c25fe95bbb20f75892a3552eb77fcd14dae92
+get_secret_value() //get return 100
+
+ex10a_address : 0x0763e89551900eba82d757a9f3862935cc7f7e47538f01ddba514f23d9a5f6e0
+claim_points(100,666);
+
+
+1. chlaim_points(array) ;// array fill in voyager's blank 10,20,30,40
+
+done!
+

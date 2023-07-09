@@ -1,0 +1,17 @@
+= Exercise 7
+
+== Comparing values
+
+Use this contract's claim_points() function
+
+Your points are credited by the contract
+
+step:
+
+cause a must be  40 < a < 70 so I set a = 41
+b = 0
+
+
+1. chlaim_points(41,0)
+done!
+

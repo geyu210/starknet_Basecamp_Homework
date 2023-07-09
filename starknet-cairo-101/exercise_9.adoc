@@ -1,0 +1,23 @@
+= Exercise 9
+
+== Recursions level 2
+
+
+
+step:
+
+cause:
+assert(!array.is_empty(), 'EMPTY_ARRAY');
+assert(array.len() >= 4_u32, 'ARRAY_LEN_LT_4');
+// Calculating the sum of the array sent by the user
+let mut sum: u128 = 0_u128;
+let total = get_sum_internal(sum, array);
+assert(total >= 50_u128, 'SUM_LT_50');
+
+so array can equal : 10,20,30,40
+
+
+1. chlaim_points(array) ;// array fill in voyager's blank 10,20,30,40
+
+done!
+

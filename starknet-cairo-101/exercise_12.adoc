@@ -1,0 +1,13 @@
+= Exercise 12
+
+== Event
+
+find the secnum in the last event  6385
+and sub 32 = 6385 - 32 = 6353
+
+
+so:
+1.chaim(6353)
+
+done!
+

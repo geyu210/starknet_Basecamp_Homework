@@ -1,0 +1,21 @@
+= Exercise 6
+
+== External vs internal functions
+
+In this exercise, you need to:
+
+Follow this contract's claim_points() function to understand how to finish the exercise
+
+You need to the exact same thing as the previous exercise
+
+But this time, the external function you will call will call an inner function
+
+step:
+
+1. interact assign_user_slot(address); return nothing
+2. get user's slot from `get_user_slots(address)`; return 0x12
+3. excuse external_handler_for_internal_function(n) n!=0
+4. excuse get_user_values(address)  return 4495
+5. chlaim_points(4495)
+done!
+
